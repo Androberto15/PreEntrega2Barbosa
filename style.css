@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 130px;
+    background-color: brown;
+    box-shadow: 0 0 5px !important;
+    }
+.navbar li{ 
+    padding: 5px;
+}
+
+.navbar-brand img {
+    height: 70px;
+}
+
+.nav-link{
+    color: burlywood !important;
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+    
+.navbar span{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+@media only screen and (min-width: 0) and (max-width: 576){
+    .navbar-collapse {
+        background-color:chocolate !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+.jumbotron{
+    background-image: url(img/1.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.jumbotron p{ 
+    color: burlywood;
+}
+h1{
+    size: 3px;
+    color:burlywood;
+}
+h2{
+    text-align: center;
+    color:burlywood;
+    background-color: brown;
+    padding: 20px;
+    margin-bottom: 0 !important;
+}
+.nleft{
+    height: 400px;
+    width: 50% !important;
+    background-image: url(/img/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nright{
+    width: 50% !important;
+    background-color: chocolate;
+    
+}
+.nright h3{
+    color: burlywood;
+    
+}
+
+article{
+    border: 3px solid black;
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+article h3{
+    color: white;
+    background-color: rgba(128, 128, 128, 0.24);
+
+}
+article h3:hover{
+    background-color: brown;
+}
+article p{
+    color: white;
+    background-color: rgba(128, 128, 128, 0.24);
+}
+
+article i{
+    font-size: 30px;
+    height: 200px;
+}
+#arabigo{
+    background-image: url(/img/arabica.jpg);
+    background-size: cover;
+}
+#robusto{
+    background-image: url(/img/robusto.jpeg);
+    background-size: cover;
+}
+#liberica{
+    background-image: url(/img/liberica.jpeg);
+    background-size: cover;
+}
+#exelsa{
+    background-image: url(/img/exelsa.jpg);
+    background-size: cover;
+}
+/* --------------footer----------------------- */
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+footer p{ 
+    margin-bottom: 20px;
+}
+
+footer i{
+    letter-spacing: 30px;
+}
+
+.subir{
+    height: 50px;
+    width: 50px;
+    color:white;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 3px 5px gray;
+}
+.subir:hover{
+    color: black;
+    background: rgb(134, 45, 45);
+}
+
+
+/* ------nosotros-------- */
+.jumbotronnosotros{
+    background-image: url(/img/11.jpg);
+    background-size: cover;
+    height: 400px !important;
+    width: 100% !important;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center !important;
+    background-color: burlywood;
+    margin-bottom: 5px;
+
+}
+.jumbotronnosotros h1{
+    color: black;
+}
+
+
+
+
+/* -----nosotros-------- */
+.containernosotros{
+    background-color:tan;
+    justify-content: center;
+    align-items: center;
+}
+.containernosotros img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.containernosotros img:hover{
+    transform: scale(1.02);
+}
+.containernosotros div{
+    padding: 10px;
+    justify-content:center;
+}
+
+.historia{
+    width: 100%;
+    background-color: tan;
+    justify-content: center;
+}
+.historia h2{
+    color: black;
+    justify-content: center;
+}
+.historia p{
+    padding: 30px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    color: black;
+    opacity: .5;
+
+}
+.historia p:hover{
+    opacity: 1;
+}
+
+/* ---------------productos------------------ */
+.productos{
+    background-color: rgb(110, 45, 45);
+}
+.productx{
+    margin-bottom: 10px;
+    padding: 5px !important;
+    justify-content: center !important;
+    border-radius: 10px !important;
+    background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2) !important;
+	transition: all 400ms ease-out !important;
+	cursor: default;
+    margin-top: 10px !important;
+}
+.productx:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%) scale(1.02);
+}
+
+.productx h4{
+    justify-content: center !important;
+    align-items: center !important;
+}
+.productx a{
+    color: black;
+    background-color: brown;
+
+}
+
+
+
+
+/* ---------------productos fin------------------ */
+
+
+/* ----------------blog-------------------- */
+.divcontenedor{
+    background-color:brown;
+}
+.tituloblog{
+    background-color: white;
+    color: black;
+}
+.card-body a{
+    background-color: brown;
+    color: burlywood;
+}
+.blogs:hover{
+    transform: scale(1.02);
+}
+
+
+
+/* ----------------blog Fin-------------------- */
+/* ------------------galeriaindex-------------------- */
+.galeria{
+    background: rgb(134, 45, 45);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;  
+    width: 100%;
+
+}
+.galeria a img{
+    width: 100px;
+    height: 200px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .7s ease;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.galeria img:hover{
+    cursor:pointer;
+    width: 300px;
+    height: 220px;
+    transform: translateY(-10%);
+    opacity: 1; 
+    border-radius: 0;
+}
+
+
+
+
+
+
+/* ------------------galeriaindex-fin------------------- */
