@@ -21,6 +21,9 @@
     font-size: 25px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.nav button{
+    color: black !important;
+}
 
     
 .navbar span{
@@ -30,12 +33,15 @@
     
 }
 
+
 @media only screen and (min-width: 0) and (max-width: 576){
     .navbar-collapse {
-        background-color:chocolate !important;
+        color: black !important;
+        background-color:black !important;
         display: flex !important;
-        justify-content: center !important;
+        justify-content: right !important;
     }
+
 }
 
 .jumbotron{
@@ -270,39 +276,34 @@ footer i{
 
 
 /* ----------------blog Fin-------------------- */
-/* ------------------galeriaindex-------------------- */
-.galeria{
-    background: rgb(134, 45, 45);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;  
-    width: 100%;
+
+
+
+
+.dondeestamos h4{
+    color: brown;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.116);
 
 }
-.galeria a img{
-    width: 100px;
-    height: 200px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .5;
-    transition: .7s ease;
-    flex-wrap: wrap;
-    border-radius: 10px;
+.dondeestamos p{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
 }
-
-.galeria img:hover{
-    cursor:pointer;
-    width: 300px;
-    height: 220px;
-    transform: translateY(-10%);
-    opacity: 1; 
-    border-radius: 0;
+.dondeestamos h4:hover{
+    background-color: rgba(255, 255, 255, 0.411);
 }
-
-
-
-
-
-
-/* ------------------galeriaindex-fin------------------- */
+.dondeestamos p:hover{
+    background-color: rgba(255, 255, 255, 0.411);
+}
+.dondeestamostexto{
+    background-image: url(/img/Cafeteria1.webp);
+    background-size: cover;
+}
+.dondeestamostexto2 {
+    background-image: url(/img/cafeteria2.jpeg);
+    background-size: cover;
+}
